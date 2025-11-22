@@ -66,36 +66,30 @@ DELETE /students/{id}
 ### 1. Clone the Repository
 git clone https://github.com/adarshsrivastava2004/student-management-rest-api.git
 
+
 ### 2. Configure Database in `application.properties`
 Example (MySQL):
-```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-
-3. Run the Application
-
+### 3. Run the Application
 mvn spring-boot:run
-Application will run on:
 
+Application will run on:
 http://localhost:8080
 
+### Future Enhancements
 
-Future Enhancements
 Add global exception handling
-
 Add pagination
-
 Add search filters
-
 Add Swagger/OpenAPI documentation
-
 Add Spring Security authentication
 
-Author
+### Author
 Adarsh Srivastava
 Java Backend Developer
 
